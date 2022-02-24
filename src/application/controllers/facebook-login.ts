@@ -1,7 +1,7 @@
 import { badRequest, HttpResponse, serverError, unauthorized, ok } from '@/application/helpers'
 import { FacebookAuthentication } from '@/domain/features'
 import { AccessToken } from '@/domain/models'
-import { RequiredStringValidator } from '../validation'
+import { RequiredStringValidator } from '@/application/validation'
 
 type HttpRequest = {
   token: string
