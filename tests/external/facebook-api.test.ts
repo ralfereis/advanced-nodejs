@@ -16,12 +16,12 @@ describe('Facebook Api Integration Tests', () => {
   })
 
   it('should return a Facebook User if token is valid', async () => {
-    const fbUser = await sut.loadUser({ token: 'EAAJMpZB01HvsBAOLxwXd4ZAB9eOEAXDi1obcyrDCUSvFKgWtv9fGInQKzq78X71Brok9GRIAhXmObyLZBN5QV4jpmH68TI56stNaAB2N0QTcjDOvCZCkNsJLvxiXukSfjpGgL1Fh0fWUluzvMjAncWaWtuHj96v7CZBMy2UUoM2mmg4IKRsDZCyZATXyEe8mmqwvLIGMeZAv7ASVUqWSRAic' })
+    const fbUser = await sut.loadUser({ token: 'EAAJMpZB01HvsBAKUIKntx3I5gCRYfp5L8el1PuKrVMonz0P61i6HfiJ0JaR6YFZAA66EYAI9YXT4FUkTNqdjjW3FyHSNn7gIJ8VWyZAH47Uml32pIXNv06zNWbU0TYs0qQ1ko434UhoxCkG9ABqogf1q4TfOBjvlnDYIkAC7ow1KvagEemCZApuFMBgTkTnPgSmOEZBDBwQZDZD' })
 
     expect(fbUser).toEqual({
-      facebookId: '107248528574957',
-      email: 'node_opitjna_test@tfbnw.net',
-      name: 'Node Test'
+      facebookId: '111972991433796',
+      email: 'dkbobrcwny_1647374774@tfbnw.net',
+      name: 'John Alghfcbhggbcj Zamorestein'
     })
   })
 

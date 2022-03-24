@@ -1,0 +1,9 @@
+{
+  "type": "postgres",
+  "host": "ziggy.db.elephantsql.com",
+  "port": 5432,
+  "username": "wjjmmesc",
+  "password": "LRC9rxFNXQkubyqMpQmxWaQll0Eqkyff",
+  "database": "wjjmmesc",
+  "entities": ["dist/infra/postgres/entities/index.js"]
+}
